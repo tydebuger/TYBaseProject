@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "68878C58-D557-4566-881D-B4FFF215CEBE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B058B379-0F97-42DD-BB88-D71FDEBA24F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TYOrderModule/TYOrderModule/Classes/Target_TYOrderModule.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "Action_root_view_controller(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TYProfileModule/TYProfileModule/Classes/TYProfileBundle.swift"
+            timestampString = "587894834.169124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Bundle"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_024_E31FA546BD28A6C4954E222D7FE3F2E4_func0"
+                  moduleName = "TYProfileModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixu/Documents/%E8%BD%A6%E9%98%9F/TY/TYProfileModule/TYProfileModule/Classes/TYProfileBundle.swift"
+                  timestampString = "587892260.618518"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in TYProfileModule):__C.NSBundle.profileBundle.unsafeMutableAddressor : HLCoreFoundation.HLConvenienceBundle"
+                  moduleName = "TYProfileModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixu/Documents/%E8%BD%A6%E9%98%9F/TY/TYProfileModule/TYProfileModule/Classes/TYProfileBundle.swift"
+                  timestampString = "587892260.626525"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in TYProfileModule):__C.NSBundle.profileBundle.getter : HLCoreFoundation.HLConvenienceBundle"
+                  moduleName = "TYProfileModule"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixu/Documents/%E8%BD%A6%E9%98%9F/TY/TYProfileModule/TYProfileModule/Classes/TYProfileBundle.swift"
+                  timestampString = "587892260.652148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

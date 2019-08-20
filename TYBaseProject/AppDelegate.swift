@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        customizeTabbarItemInterface()
+        let rootViewController = HLMainTabViewController(viewControllers: self.viewControllers(), tabBarItemsAttributes: self.tabBarItemsAttributesForController())
+        self.window = UIWindow()
+        self.window?.frame  = UIScreen.main.bounds
+        self.window?.rootViewController = rootViewController
+        self.window?.makeKeyAndVisible()
         return true
     }
 

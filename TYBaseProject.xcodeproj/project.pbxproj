@@ -3,25 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2FD32F230A8BC700BB08EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2FD32E230A8BC700BB08EC /* Assets.xcassets */; };
+		5C8FAA4922E86F59009FDC72 /* HLMainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8FAA4722E86F59009FDC72 /* HLMainTabViewController.swift */; };
+		5C8FAA4A22E86F59009FDC72 /* HLAppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8FAA4822E86F59009FDC72 /* HLAppDelegate+Extension.swift */; };
 		5CCACDAD22E83316007718D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCACDAC22E83316007718D6 /* AppDelegate.swift */; };
-		5CCACDAF22E83316007718D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCACDAE22E83316007718D6 /* ViewController.swift */; };
 		5CCACDB222E83316007718D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCACDB022E83316007718D6 /* Main.storyboard */; };
-		5CCACDB422E83317007718D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCACDB322E83317007718D6 /* Assets.xcassets */; };
 		5CCACDB722E83317007718D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCACDB522E83317007718D6 /* LaunchScreen.storyboard */; };
+		8918EE4302BB41659B05266C /* Pods_CommonSpecTarget_TYBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399656F3E655C74E17068F85 /* Pods_CommonSpecTarget_TYBaseProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		138FF14B54BB852D3FB7D8C1 /* Pods-TYBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-TYBaseProject/Pods-TYBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		38EF2052BED17B79A3C1087B /* Pods-TYBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYBaseProject.release.xcconfig"; path = "Target Support Files/Pods-TYBaseProject/Pods-TYBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		399656F3E655C74E17068F85 /* Pods_CommonSpecTarget_TYBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSpecTarget_TYBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2FD32E230A8BC700BB08EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C8FAA4722E86F59009FDC72 /* HLMainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLMainTabViewController.swift; sourceTree = "<group>"; };
+		5C8FAA4822E86F59009FDC72 /* HLAppDelegate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HLAppDelegate+Extension.swift"; sourceTree = "<group>"; };
 		5CCACDA922E83316007718D6 /* TYBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCACDAC22E83316007718D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CCACDAE22E83316007718D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CCACDB122E83316007718D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5CCACDB322E83317007718D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CCACDB622E83317007718D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CCACDB822E83317007718D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB6B7349AD57A39CA002270 /* Pods-CommonSpecTarget-TYBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSpecTarget-TYBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-CommonSpecTarget-TYBaseProject/Pods-CommonSpecTarget-TYBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5D578DE8F0C90E12C2A2C1 /* Pods-CommonSpecTarget-TYBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSpecTarget-TYBaseProject.release.xcconfig"; path = "Target Support Files/Pods-CommonSpecTarget-TYBaseProject/Pods-CommonSpecTarget-TYBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8918EE4302BB41659B05266C /* Pods_CommonSpecTarget_TYBaseProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6349224E178D9099F66545 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				138FF14B54BB852D3FB7D8C1 /* Pods-TYBaseProject.debug.xcconfig */,
+				38EF2052BED17B79A3C1087B /* Pods-TYBaseProject.release.xcconfig */,
+				6CB6B7349AD57A39CA002270 /* Pods-CommonSpecTarget-TYBaseProject.debug.xcconfig */,
+				7F5D578DE8F0C90E12C2A2C1 /* Pods-CommonSpecTarget-TYBaseProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C5C86EF22F8182E00AC15BB /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
 		5CCACDA022E83316007718D6 = {
 			isa = PBXGroup;
 			children = (
 				5CCACDAB22E83316007718D6 /* TYBaseProject */,
 				5CCACDAA22E83316007718D6 /* Products */,
+				0F6349224E178D9099F66545 /* Pods */,
+				C3253036B7BC29F578B4E46A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,24 @@
 		5CCACDAB22E83316007718D6 /* TYBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				5C5C86EF22F8182E00AC15BB /* ThirdParty */,
 				5CCACDAC22E83316007718D6 /* AppDelegate.swift */,
-				5CCACDAE22E83316007718D6 /* ViewController.swift */,
+				5C8FAA4822E86F59009FDC72 /* HLAppDelegate+Extension.swift */,
+				5C8FAA4722E86F59009FDC72 /* HLMainTabViewController.swift */,
 				5CCACDB022E83316007718D6 /* Main.storyboard */,
-				5CCACDB322E83317007718D6 /* Assets.xcassets */,
 				5CCACDB522E83317007718D6 /* LaunchScreen.storyboard */,
+				5C2FD32E230A8BC700BB08EC /* Assets.xcassets */,
 				5CCACDB822E83317007718D6 /* Info.plist */,
 			);
 			path = TYBaseProject;
+			sourceTree = "<group>";
+		};
+		C3253036B7BC29F578B4E46A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				399656F3E655C74E17068F85 /* Pods_CommonSpecTarget_TYBaseProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CCACDBB22E83317007718D6 /* Build configuration list for PBXNativeTarget "TYBaseProject" */;
 			buildPhases = (
+				A654872F86EFC855C4BFF3CE /* [CP] Check Pods Manifest.lock */,
 				5CCACDA522E83316007718D6 /* Sources */,
 				5CCACDA622E83316007718D6 /* Frameworks */,
 				5CCACDA722E83316007718D6 /* Resources */,
+				4D6367E3E4C684F9ED1C489C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +164,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CCACDB722E83317007718D6 /* LaunchScreen.storyboard in Resources */,
-				5CCACDB422E83317007718D6 /* Assets.xcassets in Resources */,
+				5C2FD32F230A8BC700BB08EC /* Assets.xcassets in Resources */,
 				5CCACDB222E83316007718D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D6367E3E4C684F9ED1C489C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-TYBaseProject/Pods-CommonSpecTarget-TYBaseProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-TYBaseProject/Pods-CommonSpecTarget-TYBaseProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonSpecTarget-TYBaseProject/Pods-CommonSpecTarget-TYBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A654872F86EFC855C4BFF3CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonSpecTarget-TYBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CCACDA522E83316007718D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CCACDAF22E83316007718D6 /* ViewController.swift in Sources */,
+				5C8FAA4A22E86F59009FDC72 /* HLAppDelegate+Extension.swift in Sources */,
 				5CCACDAD22E83316007718D6 /* AppDelegate.swift in Sources */,
+				5C8FAA4922E86F59009FDC72 /* HLMainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,35 +364,43 @@
 		};
 		5CCACDBC22E83317007718D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB6B7349AD57A39CA002270 /* Pods-CommonSpecTarget-TYBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJF46GBGJQ;
 				INFOPLIST_FILE = TYBaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HL.TYBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5CCACDBD22E83317007718D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5D578DE8F0C90E12C2A2C1 /* Pods-CommonSpecTarget-TYBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJF46GBGJQ;
 				INFOPLIST_FILE = TYBaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = HL.TYBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

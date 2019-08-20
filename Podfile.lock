@@ -1,0 +1,111 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CTMediator (25)
+  - CYLTabBarController (1.28.3):
+    - CYLTabBarController/Core (= 1.28.3)
+  - CYLTabBarController/Core (1.28.3)
+  - Graver (1.0.0):
+    - SDWebImage (= 4.2.1)
+  - HLCoreFoundation (0.1.0)
+  - HLNetwork (0.1.0):
+    - Moya
+  - HLUIKit (0.1.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SDWebImage (4.2.1):
+    - SDWebImage/Core (= 4.2.1)
+  - SDWebImage/Core (4.2.1)
+  - SnapKit (5.0.0)
+  - TYMediator (0.1.0):
+    - CTMediator
+  - TYOrderModule (0.1.0):
+    - HLUIKit
+  - TYProfileModule (0.1.0):
+    - HLCoreFoundation
+    - HLNetwork
+    - HLUIKit
+    - SnapKit
+  - TYStationModule (0.1.0):
+    - HLUIKit
+    - SnapKit
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - CTMediator
+  - CYLTabBarController (~> 1.28.3)
+  - Graver (~> 1.0.0)
+  - HLCoreFoundation (from `../HLCoreFoundation`)
+  - HLNetwork (from `../HLNetwork`)
+  - HLUIKit (from `../HLUIKit`)
+  - Moya (~> 13.0.0)
+  - RxCocoa (~> 5.0.0)
+  - RxSwift (~> 5.0.0)
+  - SnapKit (~> 5.0.0)
+  - TYMediator (from `../TYMediator`)
+  - TYOrderModule (from `../TYOrderModule`)
+  - TYProfileModule (from `../TYProfileModule`)
+  - TYStationModule (from `../TYStationModule`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CTMediator
+    - CYLTabBarController
+    - Graver
+    - Moya
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+
+EXTERNAL SOURCES:
+  HLCoreFoundation:
+    :path: "../HLCoreFoundation"
+  HLNetwork:
+    :path: "../HLNetwork"
+  HLUIKit:
+    :path: "../HLUIKit"
+  TYMediator:
+    :path: "../TYMediator"
+  TYOrderModule:
+    :path: "../TYOrderModule"
+  TYProfileModule:
+    :path: "../TYProfileModule"
+  TYStationModule:
+    :path: "../TYStationModule"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  CYLTabBarController: cd14c6260a38337600737873a57b3114c7065a8e
+  Graver: e158dbc27f50fa012b2e8a9b64b7fd4b8f3d9139
+  HLCoreFoundation: 5af9d5485c2e6c5b6dc13017a55f0cad7f6c2813
+  HLNetwork: 31fb7290eec6f730e05dcf5f9f60dc502e88b078
+  HLUIKit: 3b42819ec8b085dff810876f9c1b80d662f239d0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  TYMediator: 86e809c9e45edb0a9ece5636eae78bc449e12900
+  TYOrderModule: 478fba4bb073674ce28c880972e1b26b8ed719e2
+  TYProfileModule: 5db4a1e62a3ee75cd3d0dffee1ba4a914f5aa09d
+  TYStationModule: 0559b278e05161e5e20fd914dbc06d8c3e71b6b2
+
+PODFILE CHECKSUM: a8bda49ed669f2a2c0cec76101c891e250eb4437
+
+COCOAPODS: 1.7.2
